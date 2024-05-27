@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8ca84;
+  }
+
+  
+  /* Estilo para a barra de navegação */
+  nav {
+    background-color:#ed4811;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+  }
+  
+  .menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s;
+  }
+  
+  .menu a:hover {
+    color: #e6ee03;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .titulo {
+    position: relative; /* Define o posicionamento relativo */
+  }
+  
+  .titulo img {
+    display: block; /* Garante que a imagem ocupe todo o espaço do contêiner */
+    width: 100%; /* Pode ajustar conforme necessário */
+    height: auto; /* Para manter a proporção */
+  }
+  
+  .titulo p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: weight 500px;
+    font-size: 50px;
+    position: absolute; /* Define o posicionamento absoluto */
+    top: 50%; /* Posiciona o parágrafo no centro vertical */
+    left: 50%; /* Posiciona o parágrafo no centro horizontal */
+    transform: translate(-50%, -50%); /* Move o parágrafo de volta metade da sua largura e metade da sua altura para o centro */
+    color: #020202;
+    padding: 10px; /* Adiciona um preenchimento para melhorar a legibilidade */
+  }
+  
+
+  
+.Apresentação {
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .Apresentação h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o grid de imagens */
+  .opçoes-marmita {
+    display: grid;
+    justify-content: end;
+    align-items: stretch;
+    grid-template-columns: repeat(2, 1fr); /* Cria 4 colunas */
+    gap: 10px; /* Espaçamento entre as imagens */
+    /*justify-items: center; / Centraliza horizontalmente */
+  }
+  
+.fotos-marmita{
+  height: 300px;
+  width: 300px;
+}
+
+  /* Estilo para as imagens */
+  .fotos-marmita img {
+    width: 100%; /* Ajusta a largura da imagem para ocupar o espaço da coluna */
+    height: auto; /* Para manter a proporção */
+    border-right: 1px solid #ccc; /* Adiciona borda à direita de cada imagem */
+    padding-right: 20px; /* Espaçamento à direita para a borda */
+
+
+  }
+
+
+  /* Estilo para o texto ao lado das imagens */
+  .fraseinicial {
+    text-align: left;
+    font-size: 23px;
+  }
+  .fraseinicial img {
+    text-align: right;
+  }
+  .fraseinicial p {
+    padding-right: 20px; /* Espaçamento à direita para a borda */
+  }
+  .buttonsaiba {
+    background-color: #5e43d7 ; 
+    font-size: 20px;
+    transition: background-color 0.5s;
+    } 
+    
+  
+
+    .buttonsaiba {
+      background-color: #d9645e; /* Cor de fundo padrão */
+      color: rgb(0, 0, 0); /* Cor do texto */
+      padding: 10px 20px; /* Espaçamento interno */
+      border: none; /* Remover borda */
+      border-radius: 5px; /* Arredondar cantos */
+      cursor: pointer; /* Cursor ao passar o mouse */
+      transition: background-color 0.3s ease; /* Transição suave */
+  }
+  
+  .buttonsaiba:hover {
+      background-color: #dcd612; /* Cor de fundo ao passar o mouse */
+  }
+  
+
+  /* Estilo para a seção de destinos */
+.opções {
+  background: linear-gradient(to right, #FFE7C2,#BDACFF);
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .opções h1 {
+    font-size: 32px;
+    margin-bottom: 20
+  }
+  
+  
+  .opções-mistura {
+   display: grid;
+    grid-template-columns: repeat(4,2fr); repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px; 
+    justify-content: center;
+  } 
+
+  
+
+
+  
+  .mistura {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .mistura img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .mistura div {
+    padding: 20px;
+  }
+  
+  .mistura span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mistura p {
+    margin-bottom: 10px;
+  }
+  
+  .mistura .valor {
+    margin-bottom: 20px;
+  }
+  
+  .mistura button {
+    background-color: #5e43d7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .mistura button:hover {
+    background-color:#747cfa;
+    transition: color 0.5s;
+  }
+  
+
+
+
+  .Cardápio img {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+   }
+
+  .Cardápio img {
+    background-color: #333;
+    color: white;
+    padding: 50px 40px;
+    text-align: center;
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    max-height: 500px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Ajusta a imagem para caber no contêiner sem distorção */
+}
+
+  .Cardápio h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .Cardápio p{
+    font-size: 25px;
+  }
+  
+.Cardápio {
+    width: 90%; 
+    margin: 0 auto; /* Centralizando horizontalmente */
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  
+
+  
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .empresa h1.logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  .rede-social i {
+    font-size: 32px;
+    margin: 0 10px;
+    transition: background-color 0.5s;
+  }
+  
+  /* Estilo para os ícones de redes sociais */
+  .fa-brands {
+    font-size: 32px;
+    margin: 0 10px;
+  }
+  
+  .rede-social i:hover{
+    background-color: #747cfa;
+  }
