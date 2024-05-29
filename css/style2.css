@@ -7,7 +7,7 @@
 
 /* Estilo para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #d8ca84;
@@ -47,6 +47,7 @@ body {
   .menu a:hover {
     color: #e6ee03;
   }
+
   
   /* Estilo para o cabeçalho */
   header {
@@ -62,21 +63,21 @@ body {
   }
   
   .titulo img {
-    display: block; /* Garante que a imagem ocupe todo o espaço do contêiner */
-    width: 100%; /* Pode ajustar conforme necessário */
-    height: auto; /* Para manter a proporção */
+    display: block; 
+    width: 100%; 
+    height: auto; 
   }
   
   .titulo p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font: weight 500px;
     font-size: 50px;
-    position: absolute; /* Define o posicionamento absoluto */
-    top: 50%; /* Posiciona o parágrafo no centro vertical */
-    left: 50%; /* Posiciona o parágrafo no centro horizontal */
-    transform: translate(-50%, -50%); /* Move o parágrafo de volta metade da sua largura e metade da sua altura para o centro */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     color: #020202;
-    padding: 10px; /* Adiciona um preenchimento para melhorar a legibilidade */
+    padding: 10px;
   }
   
 
@@ -99,7 +100,7 @@ body {
     align-items: stretch;
     grid-template-columns: repeat(2, 1fr); /* Cria 4 colunas */
     gap: 10px; /* Espaçamento entre as imagens */
-    /*justify-items: center; / Centraliza horizontalmente */
+    
   }
   
 .fotos-marmita{
@@ -109,13 +110,18 @@ body {
 
   /* Estilo para as imagens */
   .fotos-marmita img {
-    width: 100%; /* Ajusta a largura da imagem para ocupar o espaço da coluna */
-    height: auto; /* Para manter a proporção */
-    border-right: 1px solid #ccc; /* Adiciona borda à direita de cada imagem */
-    padding-right: 20px; /* Espaçamento à direita para a borda */
+    width:380px; 
+    height: auto; 
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
 
 
   }
+
+.fotos-marmita p{
+font-size: 18px;
+
+}
 
 
   /* Estilo para o texto ao lado das imagens */
@@ -127,7 +133,7 @@ body {
     text-align: right;
   }
   .fraseinicial p {
-    padding-right: 20px; /* Espaçamento à direita para a borda */
+    padding-right: 20px; 
   }
   .buttonsaiba {
     background-color: #5e43d7 ; 
@@ -135,21 +141,6 @@ body {
     transition: background-color 0.5s;
     } 
     
-  
-
-    .buttonsaiba {
-      background-color: #d9645e; /* Cor de fundo padrão */
-      color: rgb(0, 0, 0); /* Cor do texto */
-      padding: 10px 20px; /* Espaçamento interno */
-      border: none; /* Remover borda */
-      border-radius: 5px; /* Arredondar cantos */
-      cursor: pointer; /* Cursor ao passar o mouse */
-      transition: background-color 0.3s ease; /* Transição suave */
-  }
-  
-  .buttonsaiba:hover {
-      background-color: #dcd612; /* Cor de fundo ao passar o mouse */
-  }
   
 
   /* Estilo para a seção de destinos */
@@ -161,8 +152,9 @@ body {
   }
   
   .opções h1 {
-    font-size: 32px;
-    margin-bottom: 20
+    font-size: 30px;
+    margin-bottom: 20;
+    margin-top: -10px;
   }
   
   
@@ -173,9 +165,12 @@ body {
     justify-content: center;
   } 
 
+  .link {
+    text-decoration: none; 
+    color: inherit;
+}
+
   
-
-
   
   .mistura {
     background-color: white;
@@ -224,25 +219,15 @@ body {
   }
   
 
-
-
-  .Cardápio img {
-    background-color: #333;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
-   }
-
   .Cardápio img {
     background-color: #333;
     color: white;
     padding: 50px 40px;
     text-align: center;
-    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
-    max-height: 500px; /* Ajuste conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    object-fit: contain; /* Ajusta a imagem para caber no contêiner sem distorção */
+    max-width: 100%; /
+    max-height: 500px;
+    height: auto;
+    object-fit: contain; 
 }
 
   .Cardápio h1 {
@@ -255,15 +240,14 @@ body {
   
 .Cardápio {
     width: 90%; 
-    margin: 0 auto; /* Centralizando horizontalmente */
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
     margin-top: 40px;
   }
   
 
-  
-  
+
   /* Estilo para o rodapé */
   footer {
     background-color: #222;
@@ -271,13 +255,6 @@ body {
     padding: 50px 20px;
     text-align: center;
   }
-  
-  .empresa h1.logo {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
   
 
   .rede-social i {
