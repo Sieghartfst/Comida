@@ -49,14 +49,7 @@ body {
   }
 
   
-  /* Estilo para o cabeçalho */
-  header {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-  }
+
   
   .titulo {
     position: relative; /* Define o posicionamento relativo */
