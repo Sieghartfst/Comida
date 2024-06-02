@@ -1,0 +1,71 @@
+#reviews-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#reviews-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+#review-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#review-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#review-form input[type="text"],
+#review-form input[type="number"],
+#review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#review-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#review-form button:hover {
+    background-color: #45a049; /* Verde mais escuro no hover */
+}
+
+#reviews {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.review h3 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.review p {
+    margin: 0;
+    color: #777;
+}
