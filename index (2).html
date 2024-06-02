@@ -206,6 +206,26 @@
         
         </div>
     </section>
+
+<!-- ===== avaliação ===== -->
+        <section id="reviews-section">
+            <h2>Deixe sua Avaliação</h2>
+            <form id="review-form" onsubmit="event.preventDefault(); submitReview();">
+                <label for="reviewer-name">Nome:</label>
+                <input type="text" id="reviewer-name" name="reviewer-name" required>
+                <br>
+                <label for="review-rating">Nota (1 a 5):</label>
+                <input type="number" id="review-rating" name="review-rating" min="1" max="5" required>
+                <br>
+                <label for="review-text">Crítica:</label>
+                <textarea id="review-text" name="review-text" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        
+            <div id="reviews"></div>
+        </section>
+
     <!-- ===== Rodapé ===== -->
     <footer>
         <div class="empresa">
